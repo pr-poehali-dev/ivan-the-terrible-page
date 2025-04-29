@@ -1,7 +1,7 @@
 
 import { Avatar } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { Heart, MessageCircle, Share, MapPin, MoreHorizontal } from "lucide-react";
+import { Heart, MessageCircle, Share, MapPin, MoreHorizontal, Image } from "lucide-react";
 
 interface Post {
   id: number;
@@ -135,7 +135,7 @@ export const PostFeed = () => {
         <div className="flex justify-between mt-3">
           <div className="flex space-x-2">
             <Button variant="ghost" size="sm">
-              <Camera className="w-4 h-4 mr-1 text-gray-600" />
+              <Image className="w-4 h-4 mr-1 text-gray-600" />
               Фото
             </Button>
             <Button variant="ghost" size="sm">
